@@ -40,13 +40,15 @@
 
 * Funciona com WSL, DOS, PowerShell
 
-* Instalar: oh my zsh no WSL 2
+* Instalar: [oh my zsh no WSL 2](https://dev.to/erickrock80/pt-br-instalando-oh-my-zsh-no-windows-terminal-3a8l)
     * Autocomplete
     * highlights
     * correção de comandos
     * Temas e cores
     * Gerência avançada do histórico
     * Vários Plug-ins
+
+    * Tema no zsh: sobole, spaceship
 
 ---
 
@@ -59,6 +61,9 @@
 * Redimensionador de imagem
 * Gerenciador de Teclado
 * Renomear avançados, guia de atalhos, mudo em video conferêcia
+* PowerToys Run
+
+* DOWNLOAD: [CLIQUE AQUI](https://github.com/microsoft/PowerToys)
 
 ---
 
@@ -70,3 +75,9 @@
 * Loja de extensãoes imensa e comunidade de desenvolvimento muito ativa
 * Leve e rápido quando comparado a outras IDEs
 * Suporte a desenvolvimento remoto e Docker
+
+* extensões
+    * Settings Sync (https://gist.github.com/argentinaluiz/f134417fa4753064820b6ee2af194e55)
+    * Remote Development
+    * Remote - SSH
+    * Peacock (cor da IDE por tecnologia)
