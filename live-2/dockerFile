@@ -1,0 +1,5 @@
+FROM nginx:lastest
+
+ENV key=value
+
+COPY html/* /usr/share/nginx/html

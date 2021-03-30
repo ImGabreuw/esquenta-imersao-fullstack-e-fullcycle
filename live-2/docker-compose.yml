@@ -1,0 +1,23 @@
+version: '3'
+
+services: 
+  web:
+    build: .
+    ports: 
+    - 8080:80
+    volumes: # Comportilhamento do volumo da máquina local para o container (PRODUÇÂO)
+    - "./html:/usr/share/nginx/html"
+    networks: 
+    - x
+
+  mysql:
+    image: mysql:5.7
+    volumes:
+    - ./mysql-data:/var/lib/mysql
+    environment:
+    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_DATABASE=fullcycle
+    ports:
+    - 33006:3306
+    networks: 
+    - y
