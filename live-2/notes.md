@@ -2,6 +2,8 @@
 
 ### O que é Docker
 
+* Documentação: [CLIQUE AQUI](https://docs.docker.com/)
+
 * Docker também é um container runtime.
 
 * Container = 1 processo
